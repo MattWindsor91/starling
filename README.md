@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+## Starling
 
-You can use the [editor on GitHub](https://github.com/MattWindsor91/starling/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**Starling** is a project to build tools and logics for automated verification of sequentially consistent, low-level concurrent programs.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Work on Starling has been supported, from 2014 to 2018, by an EPSRC Doctoral Training Grant (Matt Windsor).
 
-### Markdown
+### People
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The following people have worked on Starling:
 
-```markdown
-Syntax highlighted code block
+- [Matt Windsor](https://github.com/MattWindsor91), as part of an upcoming PhD thesis
+- [Mike Dodds](https://github.com/septract)
+- [Matt Parkinson](https://github.com/mjp41)
+- [Ben Simner](https://github.com/bensimner)
 
-# Header 1
-## Header 2
-### Header 3
+### The tool
 
-- Bulleted
-- List
+As part of the Starling project, we have built a tool that takes proof outlines built using a C-style programming language, and verifies the assertions inside them not only for local correctness, but non-interference against parallel invocations of other parts of the program.  Starling can target different backend solvers to tackle different domains: for example, it can use heap reachability solvers to prove properties of shared-heap programs.
 
-1. Numbered
-2. List
+The tool is free and open source software, and exists in the following places:
 
-**Bold** and _Italic_ and `Code` text
+- [Main repository](https://github.com/septract/starling-tool)
+- [Matt's development fork](https://github.com/MattWindsor91/starling-tool): tends to have more features than the main repository, but may also be less stable.
 
-[Link](url) and ![Image](src)
-```
+### Further work
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MattWindsor91/starling/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Starling-related projects will appear here as and when they hit general availability.
