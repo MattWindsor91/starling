@@ -1,6 +1,6 @@
 ## Starling
 
-**Starling** is a project to build tools and logics for automated verification of sequentially consistent, low-level concurrent programs.
+**Starling** is a project to build tools and logics for automated verification of sequentially consistent, low-level concurrent programs.  It's based heavily on the [Concurrent Views Framework](https://sites.google.com/site/viewsmodel/).
 
 Work on Starling has been supported, from 2014 to 2018, by an EPSRC Doctoral Training Grant (Matt Windsor).
 
